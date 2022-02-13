@@ -1,4 +1,5 @@
 @import url('/css/zero.css');
+@import url('./css/zero.css');
 
 body{
     font-family: Montserrat;
