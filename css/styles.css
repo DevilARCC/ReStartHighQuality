@@ -1,0 +1,154 @@
+@import url('/css/zero.css');
+
+body{
+    font-family: Montserrat;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 1 auto;
+}
+
+
+
+.greetings {
+    background-color: #8D5CF6;
+    height: 825px;
+}
+.greetings-contaiment {
+    display: flex;
+    flex-direction: column;
+    max-width: 966px;
+    margin: 0px auto;
+}
+.greetings-row {
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.greetings-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+}
+.greetings-menu a {
+    padding-right: 21px;
+    color: #FFF;
+}
+.greetings-menu a:first-child {
+    padding-left: 21px;
+}
+.greetings-menu a:nth-child(4) {
+    padding-right: 0;
+}
+.greetings-menu a:nth-child(5) {
+    padding-left: 260px;
+    padding-right: 0;
+}
+.greetings-button {
+    background: url(/images/Arrow.png) 95px 20px no-repeat;
+    background-color: #FF7B52;
+    border-radius: 5px;
+    width: 137px;
+    height: 52px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 22px;
+    padding-right: 25px;
+}
+
+.greetings-lable {
+    color: #FFF;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.greetings-introducetext {
+    margin-top: 216px;
+    margin-bottom: 40px;
+}
+.greetings-introducetext-label {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.greetings-introducetext-sometext {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.greetings-introducetext-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.greetings-introducetext-buttonone {
+    background: #FF7B52;
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.greetings-introducetext-buttontwo {
+    padding: 15px 40px;
+    border: 1px solid #FF7B52;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #8D5CF6;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #FAFAFA;
+}
+.footer-contaiment {
+    max-width: 966px;
+    margin: 0px auto;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+}
+.footer-text {
+    color: #737373;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.footer-images {
+    
+}
+.footer-images a {
+    padding-right: 22px;
+}
+.footer-images a:nth-child(3) {
+    padding-right: 0;
+}
