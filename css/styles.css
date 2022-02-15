@@ -201,8 +201,6 @@ body{
     font-style: normal;
     font-weight: bold;
 }
-
-
 .second {
     margin-top: 40px;
 }
@@ -219,6 +217,185 @@ body{
 .four {
     margin-top: 40px;
     width: 242px;
+}
+
+.qetqualityeducation{
+    height: 1096px;
+    background-color: #26335D;
+}
+.qetqualityeducation-contaiment{
+    max-width: 1046px;
+    margin: 0px auto;
+}
+.qetqualityeducation-row{
+    margin-top: 112px;
+}
+.qetqualityeducation-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.qetqualityeducation-p-c{
+    color: #8D5CF6;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.qetqualityeducation-p-qet{
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.qetqualityeducation-p-problems{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.qetqualityeducation-cards{
+    height: 1096px;
+}
+.qetqualityeducation-cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-default{
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+    height: 602px;
+    background-color: #FFFFFF;
+}
+.qetqualityeducation-card-backg{
+    width: 238px;
+    height: 300px;
+    background-image: url(/images/BsLib.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.qetqualityeducation-card-bg-sale{
+    width: 51px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.qetqualityeducation-card-bg-images{
+    margin-top: 192px;
+    display: flex;
+    justify-content: center;
+
+}
+.qetqualityeducation-card-bg-heart {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+    margin-right: 10px;
+}
+.qetqualityeducation-card-bg-buy {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+    margin-right: 10px;
+}
+.qetqualityeducation-card-bg-eye {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+}
+
+.qetqualityeducation-card-textwithoutbg {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.qetqualityeducation-card-twbg-welcome {
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8D5CF6;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-w-img{
+    width: 50px;
+    height: 26px;
+}
+.qetqualityeducation-card-twbg-bookslibrary {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.qetqualityeducation-card-twbg-wefocus {
+    line-height: 20px;
+    color: #737373;
+}
+.qetqualityeducation-card-twbg-sales {
+    width: 83px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #737373;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-sales-pic{
+    width: 16px;
+    height: 16px;
+}
+.qetqualityeducation-card-twbg-numbers {
+    width: 113px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 3px;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-numbers-16-6 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+.qetqualityeducation-card-twbg-numbers-6-48 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FF7B52;
+}
+.qetqualityeducation-card-twbg-button{
+    border: 1px solid #8D5CF6;
+    box-sizing: border-box;
+    border-radius: 37px;
+    width: 141.14px;
+    height: 44px;
+    background-color: #FFFFFF;
+    color: #8D5CF6;
+    font-weight: bold;
+}
+.qetqualityeducation-card-twbg-button-arrow{
+    width: 9.14px;
+    height: 16px;
+    margin-left: 5px;
+}
+.bg-join-us{
+    background-image: url(/images/Ju.jpg);
+}
+.bg-fbf{
+    background-image: url(/images/Pensils.jpg);
+}
+.bg-notebook{
+    background-image: url(/images/Notebook.jpg);
 }
 
 .footer {
