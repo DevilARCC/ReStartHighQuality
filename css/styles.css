@@ -123,6 +123,104 @@ body{
     font-weight: bold;
 }
 
+
+.ourexpertteachers {
+    height: 768px;
+    background-color: #26335D;
+}
+.ourexpertteachers-contaiment {
+    max-width: 1044px;
+    margin: 0px auto;
+}
+.ourexpertteachers-row {
+    margin-top: 112px;
+}
+.ourexpertteachers-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.ourexpertteachers-p-practice {
+    color: #8D5CF6;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.ourexpertteachers-p-our {
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.ourexpertteachers-p-problems {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.ourexpertteachers-cards-row {
+    display: flex;
+    justify-content: space-between;
+}
+.ourexpertteachers-card-b-l{
+    width: 70px;
+    height: 76px;
+    margin-bottom: 20px;
+}
+.ourexpertteachers-cards-p-b-l{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.ourexpertteachers-card-underline{
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.ourexpertteachers-card-default {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 292px;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.ourexpertteachers-cards-p-the {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.second {
+    margin-top: 40px;
+}
+.third {
+    background-color: #8D5CF6;
+}
+.t-c-label{
+    color: #FFFFFF;
+}
+.gradual-information-text{
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.four {
+    margin-top: 40px;
+    width: 242px;
+}
+
 .footer {
     background-color: #FAFAFA;
 }
