@@ -56,7 +56,7 @@ body{
     padding-right: 0;
 }
 .greetings-button {
-    background: url(/images/Arrow.png) 95px 20px no-repeat;
+    background: url(../images/Arrow.png) 95px 20px no-repeat;
     background-color: #FF7B52;
     border-radius: 5px;
     width: 137px;
@@ -274,7 +274,7 @@ body{
 .qetqualityeducation-card-backg{
     width: 238px;
     height: 300px;
-    background-image: url(/images/BsLib.jpg);
+    background-image: url(../images/BsLib.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -389,13 +389,13 @@ body{
     margin-left: 5px;
 }
 .bg-join-us{
-    background-image: url(/images/Ju.jpg);
+    background-image: url(../images/Ju.jpg);
 }
 .bg-fbf{
-    background-image: url(/images/Pensils.jpg);
+    background-image: url(../images/Pensils.jpg);
 }
 .bg-notebook{
-    background-image: url(/images/Notebook.jpg);
+    background-image: url(../images/Notebook.jpg);
 }
 
 
