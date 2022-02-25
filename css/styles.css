@@ -1,4 +1,4 @@
-@import url('zero.css');
+@import url('/css/zero.css');
 
 body{
     font-family: Montserrat;
@@ -121,6 +121,561 @@ body{
     letter-spacing: 0.2px;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+
+.ourexpertteachers {
+    height: 768px;
+    background-color: #26335D;
+}
+.ourexpertteachers-contaiment {
+    max-width: 1044px;
+    margin: 0px auto;
+}
+.ourexpertteachers-row {
+    margin-top: 112px;
+}
+.ourexpertteachers-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.ourexpertteachers-p-practice {
+    color: #8D5CF6;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.ourexpertteachers-p-our {
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.ourexpertteachers-p-problems {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.ourexpertteachers-cards-row {
+    display: flex;
+    justify-content: space-between;
+}
+.ourexpertteachers-card-b-l{
+    width: 70px;
+    height: 76px;
+    margin-bottom: 20px;
+}
+.ourexpertteachers-cards-p-b-l{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.ourexpertteachers-card-underline{
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.ourexpertteachers-card-default {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 292px;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.ourexpertteachers-cards-p-the {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-style: normal;
+    font-weight: bold;
+}
+.second {
+    margin-top: 40px;
+}
+.third {
+    background-color: #8D5CF6;
+}
+.t-c-label{
+    color: #FFFFFF;
+}
+.gradual-information-text{
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.four {
+    margin-top: 40px;
+    width: 242px;
+}
+
+.qetqualityeducation{
+    height: 1096px;
+    background-color: #26335D;
+}
+.qetqualityeducation-contaiment{
+    max-width: 1046px;
+    margin: 0px auto;
+}
+.qetqualityeducation-row{
+    margin-top: 112px;
+}
+.qetqualityeducation-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.qetqualityeducation-p-c{
+    color: #8D5CF6;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.qetqualityeducation-p-qet{
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.qetqualityeducation-p-problems{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.qetqualityeducation-cards{
+    height: 1096px;
+}
+.qetqualityeducation-cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-default{
+    display: flex;
+    flex-direction: column;
+    width: 238px;
+    height: 602px;
+    background-color: #FFFFFF;
+}
+.qetqualityeducation-card-backg{
+    width: 238px;
+    height: 300px;
+    background-image: url(../images/BsLib.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.qetqualityeducation-card-bg-sale{
+    width: 51px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.qetqualityeducation-card-bg-images{
+    margin-top: 192px;
+    display: flex;
+    justify-content: center;
+
+}
+.qetqualityeducation-card-bg-heart {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+    margin-right: 10px;
+}
+.qetqualityeducation-card-bg-buy {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+    margin-right: 10px;
+}
+.qetqualityeducation-card-bg-eye {
+    width: 40px;
+    height: 40px;
+    border-radius: 44.7857px;
+}
+
+.qetqualityeducation-card-textwithoutbg {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.qetqualityeducation-card-twbg-welcome {
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8D5CF6;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-w-img{
+    width: 50px;
+    height: 26px;
+}
+.qetqualityeducation-card-twbg-bookslibrary {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.qetqualityeducation-card-twbg-wefocus {
+    line-height: 20px;
+    color: #737373;
+}
+.qetqualityeducation-card-twbg-sales {
+    width: 83px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #737373;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-sales-pic{
+    width: 16px;
+    height: 16px;
+}
+.qetqualityeducation-card-twbg-numbers {
+    width: 113px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 3px;
+    justify-content: space-between;
+}
+.qetqualityeducation-card-twbg-numbers-16-6 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #BDBDBD;
+}
+.qetqualityeducation-card-twbg-numbers-6-48 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FF7B52;
+}
+.qetqualityeducation-card-twbg-button{
+    border: 1px solid #8D5CF6;
+    box-sizing: border-box;
+    border-radius: 37px;
+    width: 141.14px;
+    height: 44px;
+    background-color: #FFFFFF;
+    color: #8D5CF6;
+    font-weight: bold;
+}
+.qetqualityeducation-card-twbg-button-arrow{
+    width: 9.14px;
+    height: 16px;
+    margin-left: 5px;
+}
+.bg-join-us{
+    background-image: url(../images/Ju.jpg);
+}
+.bg-fbf{
+    background-image: url(../images/Pensils.jpg);
+}
+.bg-notebook{
+    background-image: url(../images/Notebook.jpg);
+}
+
+
+.girlourexperts {
+    height: 805px;
+    background-color: #26335D;
+}
+.girlourexperts-contaiment {
+    max-width: 1045px;
+    margin: 0px auto;
+}
+.girlourexperts-row {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.girlourexperts-girlimage {
+}
+.girlourexperts-girlimage-img {
+}
+.girlourexperts-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 296px
+}
+.girlourexperts-text-line {
+    width: 94px;
+    height: 7px;
+}
+.girlourexperts-our {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.girlourexperts-problems {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.girlourexperts-button-learn {
+    width: 101px;
+    height: 24px;
+    background-color: #26335D;
+    color: #8D5CF6;
+    font-weight: bold;
+}
+.girlourexperts-button-learn-arrow{
+    width: 9.14px;
+    height: 16px;
+    margin-left: 5px;
+}
+.girlourexperts-girlimage-video{
+    height: 363px;
+    width: 508px;
+}
+.mostpopularcources {
+    height: 989px;
+    background-color: #26335D;
+}
+.mostpopularcources-contaiment {
+    max-width: 1050px;
+    margin: 0px auto;
+}
+.mostpopularcources-row {
+    margin-top: 160px;
+}
+.mostpopularcources-cards-row {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.mostpopularcources-cards-one {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 512px;
+    height: 378px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.mostpopularcources-designer-one {
+    border-radius: 200px;
+}
+.mostpopularcources-text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+}
+.mostpopularcources-stars-row {
+}
+.mostpopularcources-star-concrete {
+}
+.mostpopularcources-nameofdesigner {
+    display: flex;
+    flex-direction: column;
+    height: 53px;
+    align-items: center;
+    justify-content: space-between;
+}
+.mostpopularcources-nameofdesigner-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.mostpopularcources-nameofdesigner-role {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+.mostpopularcources-cards-two {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    width: 512px;
+    height: 378px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teamourexpertteacher {
+    height: 849px;
+    background-color: #26335D;
+}
+.teamourexpertteacher-contaiment {
+    max-width: 1050px;
+    margin: 0px auto;
+}
+.teamourexpertteacher-row {
+    margin-top: 112px;
+}
+.teamourexpertteacher-experts-row {
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.teamourexpertteacher-expertcard-default {
+    background-color: #ffff;
+    width: 238px;
+    height: 375px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.teamourexpertteacher-expertcard-rowtext {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.teamourexpertteacher-expertcard-p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.teamourexpertteacher-expertcard-prf {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+.teamourexpertteacher-images{
+
+}
+.teamourexpertteacher-images a {
+    padding-right: 22px;
+}
+.teamourexpertteacher-images a:nth-child(3) {
+    padding-right: 0;
+}
+
+.newsletter {
+    height: 594px;
+    background-color: #26335D;
+}
+.newsletter-contaiment {
+    max-width: 1050px;
+    margin: 0px auto;
+}
+.newsletter-row {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.newsletter-inputform {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.newsletter-inputform-email {
+    width: 688px;
+    height: 58px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-family: Montserrat;
+}
+.newsletter-inputform-button {
+    border: 1px solid #ffff;
+    width: 117px;
+    height: 58px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #8D5CF6;
+    color: #ffff;
+}
+.subfooter {
+    height: 272px;
+    background-color: #26335D;
+}
+.subfooter-contaiment {
+    max-width: 1050px;
+    margin: 0px auto;
+}
+.subfooter-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.subfooter-block-default {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    width: 147px;
+}
+.sbd-second{
+    width: 158px;
+}
+.sbd-three{
+    width: 149px;
+}
+.sbd-four{
+    width: 152px;
+}
+.sbd-five{
+    width: 321px;
+    height: 162px;
+}
+.subfooter-b-d-first {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.subfooter-block-phone{
+    display: flex;
+    align-items: center;
+}
+.subfooter-block-phone-p{
+    padding-right: 10px;
 }
 
 .footer {
