@@ -2,6 +2,7 @@
 
 body{
     font-family: Montserrat;
+    height: 100%;
 }
 .wrapper {
     min-height: 100%;
@@ -24,6 +25,8 @@ body{
     flex-direction: column;
     max-width: 966px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .greetings-row {
     justify-content: space-between;
@@ -40,11 +43,13 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #FFF;
+    flex-wrap: wrap;
 }
 .greetings-menu a {
     padding-right: 21px;
     color: #FFF;
 }
+
 .greetings-menu a:first-child {
     padding-left: 21px;
 }
@@ -53,7 +58,6 @@ body{
 }
 .greetings-menu a:nth-child(5) {
     padding-left: 260px;
-    padding-right: 0;
 }
 .greetings-button {
     background: url(../images/Arrow.png) 95px 20px no-repeat;
@@ -66,7 +70,6 @@ body{
     line-height: 22px;
     padding-right: 25px;
 }
-
 .greetings-lable {
     color: #FFF;
     letter-spacing: 0.1px;
@@ -122,7 +125,51 @@ body{
     color: #FFFFFF;
     font-weight: bold;
 }
-
+@media (max-width: 1000px) {
+    .greetings-menu a:nth-child(5) {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 704px) {
+    .greetings-menu{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 552px) {
+    .greetings-button{
+        margin-top: 10px;
+    }
+    .greetings-menu{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 426px) {
+    .greetings{
+        height: 680px;
+    }
+    .greetings-introducetext{
+        margin-top: 50px;
+    }
+    .greetings-introducetext-label{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .greetings-introducetext-sometext{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 336px) {
+    .greetings-introducetext-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings-introducetext-buttonone{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
 
 .ourexpertteachers {
     height: 768px;
@@ -131,6 +178,8 @@ body{
 .ourexpertteachers-contaiment {
     max-width: 1044px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .ourexpertteachers-row {
     margin-top: 112px;
@@ -216,7 +265,50 @@ body{
 }
 .four {
     margin-top: 40px;
-    width: 242px;
+    width: 230px;
+}
+.pbl-four{
+    font-size: 14px;
+}
+@media (max-width: 1025px) {
+    .ourexpertteachers-cards-row{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 962px) {
+    .ourexpertteachers{
+        height: 1225px;
+    }
+}
+@media (max-width: 720px) {
+    .ourexpertteachers-text{
+        text-align: center;
+    }
+}
+@media (max-width: 490px) {
+    .ourexpertteachers{
+        height: 1685px;
+    }
+    .ourexpertteachers-cards-row{
+        justify-content: center;
+    }
+    .ourexpertteachers-card-default{
+        align-items: center;
+    }
+    .ourexpertteachers-cards-p-the{
+        text-align: center;
+    }
+    .third {
+        margin-top: 40px;
+    }
+    .four{
+        width: 230px;
+    }
+}
+@media (max-width: 426px) {
+    .ourexpertteachers{
+        height: 1700px;
+    }
 }
 
 .qetqualityeducation{
@@ -226,6 +318,8 @@ body{
 .qetqualityeducation-contaiment{
     max-width: 1046px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .qetqualityeducation-row{
     margin-top: 112px;
@@ -397,7 +491,33 @@ body{
 .bg-notebook{
     background-image: url(../images/Notebook.jpg);
 }
-
+@media (max-width: 982px) {
+    .qetqualityeducation{
+        height: 1600px;
+    }
+    .qetqualityeducation-text{
+        text-align: center;
+    }
+    .qqe-c-d-four{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 745px) {
+    .qetqualityeducation-cards-row{
+        justify-content: space-around;
+    }
+    .qetqualityeducation-card-default{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 506px) {
+    .oet-cards-row-qqe{
+        justify-content: center;
+    }
+    .qetqualityeducation{
+        height: 3100px;
+    }
+}
 
 .girlourexperts {
     height: 805px;
@@ -406,6 +526,8 @@ body{
 .girlourexperts-contaiment {
     max-width: 1045px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .girlourexperts-row {
     margin-top: 160px;
@@ -456,6 +578,41 @@ body{
     height: 363px;
     width: 508px;
 }
+@media (max-width: 769px) {
+    .girlourexperts-text{
+        text-align: center;
+        align-items: center;
+    }
+    .girlourexperts-text-line{
+        margin-bottom: 20px;
+    }
+    .girlourexperts-our {
+        margin-bottom: 20px;
+    }
+    .girlourexperts-problems {
+        margin-bottom: 20px;
+    }
+    .girlourexperts-button-learn {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 725px) {
+    .girlourexperts-row{
+        display: block;
+    }
+}
+@media (max-width: 725px) {
+    .girlourexperts-girlimage{
+        display: none;
+        justify-content: center;
+    }
+    .girlourexperts-text{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 .mostpopularcources {
     height: 989px;
     background-color: #26335D;
@@ -463,6 +620,8 @@ body{
 .mostpopularcources-contaiment {
     max-width: 1050px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .mostpopularcources-row {
     margin-top: 160px;
@@ -482,6 +641,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .mostpopularcources-designer-one {
     border-radius: 200px;
@@ -533,7 +693,42 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+@media (max-width: 600px) {
+    .mostpopularcources{
+        height: 100%;
+    }
+    .mostpopularcources-cards-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mostpopularcources-cards-one{
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mostpopularcources-cards-two{
+        margin-top: 10px;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 426px) {
+    .mostpopularcources{
+        height: 100%;
+    }
+    .mostpopularcources-cards-one{
+        width: auto;
+    }
+    .mostpopularcources-cards-two{
+        width: auto;
+    }
 
+}
 .teamourexpertteacher {
     height: 849px;
     background-color: #26335D;
@@ -541,6 +736,8 @@ body{
 .teamourexpertteacher-contaiment {
     max-width: 1050px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .teamourexpertteacher-row {
     margin-top: 112px;
@@ -586,7 +783,26 @@ body{
 .teamourexpertteacher-images a:nth-child(3) {
     padding-right: 0;
 }
+@media (max-width: 1002px) {
+    .teamourexpertteacher{
+        height: 100%;
+    }
+    .teamourexpertteacher-experts-row{
 
+        flex-wrap: wrap;
+    }
+    .teamourexpertteacher-expertcard-default{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 506px) {
+    .teamourexpertteacher-expertcard-default{
+        display: flex;
+    }
+    .teamourexpertteacher-experts-row{
+        justify-content: center;
+    }
+}
 .newsletter {
     height: 594px;
     background-color: #26335D;
@@ -594,6 +810,8 @@ body{
 .newsletter-contaiment {
     max-width: 1050px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .newsletter-row {
     margin-top: 160px;
@@ -628,6 +846,11 @@ body{
     background-color: #8D5CF6;
     color: #ffff;
 }
+@media (max-width: 816px) {
+    .newsletter-inputform-email{
+        width: auto;
+    }
+}
 .subfooter {
     height: 272px;
     background-color: #26335D;
@@ -635,6 +858,8 @@ body{
 .subfooter-contaiment {
     max-width: 1050px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .subfooter-row {
     display: flex;
@@ -677,6 +902,41 @@ body{
 .subfooter-block-phone-p{
     padding-right: 10px;
 }
+@media (max-width: 919px) {
+    .sbd-second{
+        display: none;
+    }
+}
+@media (max-width: 919px) {
+    .sbd-three{
+        display: none;
+    }
+}
+@media (max-width: 426px) {
+    .sbd-four{
+        display: none;
+    }
+    .sbd-first{
+        margin-right: 20px;
+    }
+    .subfooter-row{
+        justify-content: center;
+        align-items: center;
+    }
+    .number{
+        display: none;
+    }
+    .location-washington{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .sbd-five{
+        width: auto;
+        align-items: center;
+    }
+}
 
 .footer {
     background-color: #FAFAFA;
@@ -684,6 +944,8 @@ body{
 .footer-contaiment {
     max-width: 966px;
     margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box;
 }
 .footer-row {
     display: flex;
@@ -706,4 +968,16 @@ body{
 }
 .footer-images a:nth-child(3) {
     padding-right: 0;
+}
+@media (max-width: 557px) {
+    .footer-row{
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footet-text-transport{
+        display: block;
+    }
 }
