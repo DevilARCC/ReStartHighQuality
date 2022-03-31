@@ -379,6 +379,16 @@ body{
     margin-top: 20px;
     margin-left: 20px;
 }
+.qetqualityeducation-card-bg-sale-out{
+    width: 51px;
+    height: 24px;
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 1745px;
+    margin-left: -20px;
+    transform: rotate(-40deg)
+}
 .qetqualityeducation-card-bg-images{
     margin-top: 192px;
     display: flex;
@@ -493,7 +503,7 @@ body{
 }
 @media (max-width: 982px) {
     .qetqualityeducation{
-        height: 1600px;
+        height: 100%;
     }
     .qetqualityeducation-text{
         text-align: center;
@@ -568,6 +578,14 @@ body{
     background-color: #26335D;
     color: #8D5CF6;
     font-weight: bold;
+}
+.girlourexperts-button-learn-down {
+    width: 1050px;
+    height: 24px;
+    background-color: #26335D;
+    color: #8D5CF6;
+    font-weight: bold;
+    text-align: center;
 }
 .girlourexperts-button-learn-arrow{
     width: 9.14px;

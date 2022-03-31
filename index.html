@@ -25,10 +25,10 @@
                                 <a href="#">Home</a>
                                 <a href="#">Product</a>
                                 <a href="#">Pricing</a>
-                                <a href="#">Contact</a>
+                                <a href="#anchor">Contact</a>
                                 <a href="#">Login</a>
                                 <div>
-                                    <button class="greetings-button">
+                                    <button onclick="Input();" class="greetings-button">
                                         JOIN US
                                     </button>
                                 </div>
@@ -104,6 +104,7 @@
                 <div class="qetqualityeducation-row">
                     <div class="qetqualityeducation-text">
                         <p class="qetqualityeducation-p-c">Cources</p>
+                        <img class="qetqualityeducation-card-bg-sale-out" src="./images/sale.jpg" alt="Sale">
                         <p class="qetqualityeducation-p-qet">Qet Quality Education</p>
                         <p class="qetqualityeducation-p-problems">Problems trying to resolve the conflict between<br>
                         the two major realms of Classical physics: Newtonian mechanics </p>
@@ -135,7 +136,7 @@
                                     <div class="qetqualityeducation-card-twbg-numbers-16-6">$16.48</div> 
                                     <div class="qetqualityeducation-card-twbg-numbers-6-48">$6.48</div> 
                                 </div>
-                                <button class="qetqualityeducation-card-twbg-button">
+                                <button id="ViewInfo1" onclick="viewOfInfo1();" class="qetqualityeducation-card-twbg-button">
                                     Learn More
                                     <img class="qetqualityeducation-card-twbg-button-arrow" src="./images/Arrow2.jpg" alt="Arrow2">
                                 </button>
@@ -167,7 +168,7 @@
                                     <div class="qetqualityeducation-card-twbg-numbers-16-6">$16.48</div> 
                                     <div class="qetqualityeducation-card-twbg-numbers-6-48">$6.48</div> 
                                 </div>
-                                <button class="qetqualityeducation-card-twbg-button">
+                                <button id="ViewInfo2" onclick="viewOfInfo2();" class="qetqualityeducation-card-twbg-button">
                                     Learn More
                                     <img class="qetqualityeducation-card-twbg-button-arrow" src="./images/Arrow2.jpg" alt="Arrow2">
                                 </button>
@@ -198,7 +199,7 @@
                                     <div class="qetqualityeducation-card-twbg-numbers-16-6">$16.48</div> 
                                     <div class="qetqualityeducation-card-twbg-numbers-6-48">$6.48</div> 
                                 </div>
-                                <button class="qetqualityeducation-card-twbg-button">
+                                <button id="ViewInfo3" onclick="viewOfInfo3();" class="qetqualityeducation-card-twbg-button">
                                     Learn More
                                     <img class="qetqualityeducation-card-twbg-button-arrow" src="./images/Arrow2.jpg" alt="Arrow2">
                                 </button>
@@ -229,7 +230,7 @@
                                     <div class="qetqualityeducation-card-twbg-numbers-16-6">$16.48</div> 
                                     <div class="qetqualityeducation-card-twbg-numbers-6-48">$6.48</div> 
                                 </div>
-                                <button class="qetqualityeducation-card-twbg-button">
+                                <button id="ViewInfo4" onclick="viewOfInfo4();" class="qetqualityeducation-card-twbg-button">
                                     Learn More
                                     <img class="qetqualityeducation-card-twbg-button-arrow" src="./images/Arrow2.jpg" alt="Arrow2">
                                 </button>
@@ -351,7 +352,7 @@
                             <div>
                                 <img src="./images/JulianJameson.png" alt="JulianJameson" class="teamourexpertteacher-expertcard-img">
                                 <div class="teamourexpertteacher-expertcard-rowtext">   
-                                    <p class="teamourexpertteacher-expertcard-p">Julian Jameson</p>
+                                    <p class="teamourexpertteacher-expertcard-p">Julian HardCock</p>
                                     <p class="teamourexpertteacher-expertcard-prf">Profession</p>
                                     <div class="teamourexpertteacher-images">
                                         <a href="#"><img src="./images/facebook.png" alt="facebooklink"></a>
@@ -379,7 +380,7 @@
                             <div>
                                 <img src="./images/JulianJamesonThree.png" alt="JulianJameson" class="teamourexpertteacher-expertcard-img">
                                 <div class="teamourexpertteacher-expertcard-rowtext">   
-                                    <p class="teamourexpertteacher-expertcard-p">Julian Jameson</p>
+                                    <p class="teamourexpertteacher-expertcard-p">Maison Jameson</p>
                                     <p class="teamourexpertteacher-expertcard-prf">Profession</p>
                                     <div class="teamourexpertteacher-images">
                                         <a href="#"><img src="./images/facebook.png" alt="facebooklink"></a>
@@ -393,7 +394,7 @@
                             <div>
                                 <img src="./images/JulianJamesonFour.png" alt="JulianJameson" class="teamourexpertteacher-expertcard-img">
                                 <div class="teamourexpertteacher-expertcard-rowtext">   
-                                    <p class="teamourexpertteacher-expertcard-p">Julian Jameson</p>
+                                    <p class="teamourexpertteacher-expertcard-p">Julian Lawson</p>
                                     <p class="teamourexpertteacher-expertcard-prf">Profession</p>
                                     <div class="teamourexpertteacher-images">
                                         <a href="#"><img src="./images/facebook.png" alt="facebooklink"></a>
@@ -404,6 +405,10 @@
                             </div>
                         </div>
                     </div>
+                    <button onclick="startOfView();" class="girlourexperts-button-learn-down">
+                        Start
+                        <img class="qetqualityeducation-card-twbg-button-arrow" src="./images/Arrow2.jpg" alt="Arrow2">
+                    </button>
                 </div>
             </div>
         </div>
@@ -419,8 +424,8 @@
                     </div>
 
                     <div class="newsletter-inputform">
-                        <input type="email" placeholder="Your Email" class="newsletter-inputform-email">
-                        <button class="newsletter-inputform-button">Subscribe</button> 
+                        <input id="anchor" type="email" placeholder="Your Email" class="newsletter-inputform-email">
+                        <button class="newsletter-inputform-button" onclick="val1();">Subscribe</button> 
                     </div>
                 </div>
             </div>
@@ -493,5 +498,7 @@
             </div>
         </div>
     </div>
+    <script src="./buttonScroll.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=KEY_SITE_V3"></script>
 </body>
 </html>
